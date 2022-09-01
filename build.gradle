@@ -15,6 +15,29 @@ dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib"
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+
+    //httpServer
+    // https://mvnrepository.com/artifact/org.glassfish.grizzly/grizzly-http-server
+    implementation("org.glassfish.grizzly:grizzly-http-server:2.4.4")
+    // https://mvnrepository.com/artifact/org.glassfish.jersey.containers/jersey-container-grizzly2-http
+    implementation("org.glassfish.jersey.containers:jersey-container-grizzly2-http:3.0.5")
+
+
+
+    //Dagger
+    // https://mvnrepository.com/artifact/com.google.dagger/dagger
+    implementation("com.google.dagger:dagger:2.40.5")
+
+    //Jersey Server
+    // https://mvnrepository.com/artifact/org.glassfish.jersey.core/jersey-server
+    implementation("org.glassfish.jersey.core:jersey-server:3.0.4")
+    // https://mvnrepository.com/artifact/org.glassfish.jersey.containers/jersey-container-grizzly2-http
+    implementation("org.glassfish.jersey.containers:jersey-container-grizzly2-http:3.0.5")
+
+    // https://mvnrepository.com/artifact/com.google.code.gson/gson
+    implementation("com.google.code.gson:gson:2.8.9")
+
+
 }
 
 test {
